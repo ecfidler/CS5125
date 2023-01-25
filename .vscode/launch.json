@@ -9,6 +9,13 @@
             "name": "Launch DE3A",
             "request": "launch",
             "mainClass": "DE3A",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE3A",
+            "request": "launch",
+            "mainClass": "DE3A",
             "projectName": "Data Encoding_f216aaee"
         }
     ]
