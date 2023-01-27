@@ -39,7 +39,7 @@ public class DE4B{
  void generateKeyPair(){
    Random random = new Random();
    privateKey = new BigInteger(1235, random);
-   publicKey = // How to get the public key?
+   publicKey = alpha.modPow(privateKey, q);
    publicKeyBytes = publicKey.toByteArray();
  }
 
@@ -71,7 +71,7 @@ public class DE4B{
 }
 
  void computeSharedSecret(){
-    preMasterSecret = // How to get the shared secret?
+    preMasterSecret = serverPublicKey.modPow(privateKey, q); // public^private mod q
     hexkey = preMasterSecret.toString(16);
     System.out.println(hexkey);
  }

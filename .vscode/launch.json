@@ -6,17 +6,33 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch DE3A",
+            "name": "Launch DE4C",
             "request": "launch",
-            "mainClass": "DE3A",
-            "projectName": "CS5125_68b77586"
+            "mainClass": "DE4C",
+            "projectName": "CS5125_68b77586",
+        },
+        {
+            "type": "java",
+            "name": "Launch DE4B",
+            "request": "launch",
+            "mainClass": "DE4B",
+            "projectName": "CS5125_68b77586",
+            "args": ["127.0.0.1", "5230"]
+        },
+        {
+            "type": "java",
+            "name": "Launch DE4A",
+            "request": "launch",
+            "mainClass": "DE4A",
+            "projectName": "CS5125_68b77586",
+            "args": ["5230"]
         },
         {
             "type": "java",
             "name": "Launch DE3A",
             "request": "launch",
             "mainClass": "DE3A",
-            "projectName": "Data Encoding_f216aaee"
-        }
+            "projectName": "CS5125_68b77586"
+        },
     ]
 }

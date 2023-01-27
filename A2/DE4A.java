@@ -42,7 +42,7 @@ public class DE4A {
   void generateKeyPair() {
     Random random = new Random();
     privateKey = new BigInteger(1235, random);
-    publicKey = alpha.modPow(privateKey, q); // what is the public key? TODO
+    publicKey = alpha.modPow(privateKey, q);
     publicKeyBytes = publicKey.toByteArray();
   }
 
@@ -76,7 +76,7 @@ public class DE4A {
   }
 
   void computeSharedSecret() {
-    preMasterSecret = clientPublicKey.modPow(privateKey, q); // how to get the shared secret with Diffie-Hellman? public^private mod q
+    preMasterSecret = clientPublicKey.modPow(privateKey, q); // public^private mod q
     hexkey = preMasterSecret.toString(16);
     System.out.println(hexkey);
   }

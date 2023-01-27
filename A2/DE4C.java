@@ -29,14 +29,14 @@ public class DE4C{
  void testPrimality(){
    if (q.isProbablePrime(200)) 
     System.out.println("q is probably prime");
-   p = // your code for (q-1)/2
+   p = q.subtract(BigInteger.ONE).divide(BigInteger.valueOf(2));
    if (p.isProbablePrime(200)) 
     System.out.println("p is probably prime");
  }
 
  void testPrimitiveness(){
-   BigInteger 2pq = // compute pow(2, p) mod q
-   System.out.println(2pq.toString(16));
+   BigInteger twoPQ = BigInteger.valueOf(2).modPow(p, q); // compute pow(2, p) mod q
+   System.out.println(twoPQ.toString(16));
  }
 
  public static void main(String[] args){
