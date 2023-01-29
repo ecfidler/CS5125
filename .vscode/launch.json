@@ -6,10 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DE5B",
+            "request": "launch",
+            "mainClass": "DE5B",
+            "projectName": "CS5125_76958c02",
+            "args": ["ECP256.txt","secp256k1.txt"]
+        },
+        {
+            "type": "java",
             "name": "Launch DE4C",
             "request": "launch",
             "mainClass": "DE4C",
-            "projectName": "CS5125_68b77586",
+            "projectName": "CS5125_68b77586"
         },
         {
             "type": "java",
@@ -33,6 +41,6 @@
             "request": "launch",
             "mainClass": "DE3A",
             "projectName": "CS5125_68b77586"
-        },
+        }
     ]
 }
