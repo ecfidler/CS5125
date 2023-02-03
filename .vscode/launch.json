@@ -6,11 +6,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AFour",
+            "request": "launch",
+            "mainClass": "AFour",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE6A",
+            "request": "launch",
+            "mainClass": "DE6A",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
             "name": "Launch DE5B",
             "request": "launch",
             "mainClass": "DE5B",
             "projectName": "CS5125_76958c02",
-            "args": ["ECP256.txt","secp256k1.txt"]
+            "args": [
+                "ECP256.txt",
+                "secp256k1.txt"
+            ]
         },
         {
             "type": "java",
@@ -25,7 +42,10 @@
             "request": "launch",
             "mainClass": "DE4B",
             "projectName": "CS5125_68b77586",
-            "args": ["127.0.0.1", "5230"]
+            "args": [
+                "127.0.0.1",
+                "5230"
+            ]
         },
         {
             "type": "java",
@@ -33,7 +53,9 @@
             "request": "launch",
             "mainClass": "DE4A",
             "projectName": "CS5125_68b77586",
-            "args": ["5230"]
+            "args": [
+                "5230"
+            ]
         },
         {
             "type": "java",

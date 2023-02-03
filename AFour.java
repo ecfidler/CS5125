@@ -6,7 +6,7 @@
 import java.math.*;
 import java.util.*;
 
-public class DE6A {
+class DE6A {
 
   Random rand = new Random();
   BigInteger p = new BigInteger(1024, 200, rand);
@@ -32,7 +32,9 @@ public class DE6A {
     System.out.println("ciphertext C: " + C.toString(16));
     System.out.println("decrypted plaintext: " + M2.toString(16));
   }
+}
 
+public class AFour {
   public static void main(String[] args) {
     DE6A de6 = new DE6A();
     de6.printKeys();
