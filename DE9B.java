@@ -183,12 +183,12 @@ void decrypt(){  // inverse of DE9A.encrypt()
    for (int k = 0; k < blockSize; k++) previousBlock[k] = 0;
    int[] currentBlock = new int[blockSize];
    while (readBlock() > 0){
+     copyBlock(previousBlock, currentBlock);
+     addBlock(state, previousBlock);
+     blockDecipher();
+     copyBlock(currentBlock, state);
+     writeBlock();
    // Your code should be an arrangement of the following five function calls:
-   //  addBlock(state, previousBlock);
-   //  blockDecipher();
-   //  copyBlock(currentBlock, state);
-   //  copyBlock(previousBlock, currentBlock);
-   //  writeBlock();
    }
    System.out.flush();
  }
@@ -196,7 +196,7 @@ void decrypt(){  // inverse of DE9A.encrypt()
 
 
 public static void main(String[] args){
-   DE9Bkey de9 = new DE9Bkey();
+   DE9B de9 = new DE9B();
    de9.makeLog();
    de9.buildS(); 
    de9.expandKey();

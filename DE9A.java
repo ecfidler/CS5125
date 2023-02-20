@@ -5,7 +5,7 @@
 import java.io.*;
 import java.util.*;
 
-public class DE9A{
+public class DE9A {
 
   static final int numberOfBits = 8;
   static final int fieldSize = 1 << numberOfBits;

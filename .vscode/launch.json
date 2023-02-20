@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DE9A",
+            "request": "launch",
+            "mainClass": "DE9A",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9B",
+            "request": "launch",
+            "mainClass": "DE9B",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
             "name": "Launch DE8B",
             "request": "launch",
             "mainClass": "DE8B",
