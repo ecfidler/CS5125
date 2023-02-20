@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DE8B",
+            "request": "launch",
+            "mainClass": "DE8B",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE8A",
+            "request": "launch",
+            "mainClass": "DE8A",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
             "name": "Launch AFour",
             "request": "launch",
             "mainClass": "AFour",
