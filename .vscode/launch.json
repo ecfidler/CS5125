@@ -6,10 +6,60 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DE9F",
+            "request": "launch",
+            "mainClass": "DE9F",
+            "projectName": "Data Encoding_f216aaee",
+            "args": [
+                "stallingskey.txt",
+                "nonce.txt"
+            ]
+            
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9E",
+            "request": "launch",
+            "mainClass": "DE9E",
+            "projectName": "Data Encoding_f216aaee",
+            "args": [
+                "stallingskey.txt",
+                "nonce.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9B",
+            "request": "launch",
+            "mainClass": "DE9B",
+            "projectName": "Data Encoding_f216aaee"
+        },
+        {
+            "type": "java",
             "name": "Launch DE9A",
             "request": "launch",
             "mainClass": "DE9A",
-            "projectName": "CS5125_68b77586"
+            "projectName": "Data Encoding_f216aaee"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9D",
+            "request": "launch",
+            "mainClass": "DE9D",
+            "projectName": "Data Encoding_f216aaee",
+            "args": [
+                "stallingskey.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9C",
+            "request": "launch",
+            "mainClass": "DE9C",
+            "projectName": "Data Encoding_f216aaee",
+            "args": [
+                "stallingskey.txt"
+            ]
         },
         {
             "type": "java",
