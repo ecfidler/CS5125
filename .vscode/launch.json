@@ -6,6 +6,37 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DE11",
+            "request": "launch",
+            "mainClass": "DE11",
+            "projectName": "CS5125_68b77586",
+            "args": [
+                "messagehereitsfing",
+                7
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9D",
+            "request": "launch",
+            "mainClass": "DE9D",
+            "projectName": "CS5125_68b77586",
+            "args": [
+                "stallingskey.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch DE9C",
+            "request": "launch",
+            "mainClass": "DE9C",
+            "projectName": "CS5125_68b77586",
+            "args": [
+                "stallingskey.txt"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Launch DE9F",
             "request": "launch",
             "mainClass": "DE9F",
@@ -14,7 +45,6 @@
                 "stallingskey.txt",
                 "nonce.txt"
             ]
-            
         },
         {
             "type": "java",

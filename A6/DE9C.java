@@ -195,8 +195,8 @@ public class DE9C {
     while ((len = readBlock()) >= 0) {
       for (int i = 0; i < len; i++) {
         copyBlock(state, register);
-        outBlock[i] = inBlock[i] ^ state[0];
         blockCipher();
+        outBlock[i] = inBlock[i] ^ state[0];
         shiftRegister(outBlock[i]);
       }
       writeBlock(len);
