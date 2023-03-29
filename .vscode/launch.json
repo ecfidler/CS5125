@@ -6,6 +6,37 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DE16B",
+            "request": "launch",
+            "mainClass": "DE16B",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "DE16A",
+            "request": "launch",
+            "mainClass": "DE16A",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE12B",
+            "request": "launch",
+            "mainClass": "DE12B",
+            "projectName": "CS5125_68b77586"
+        },
+        {
+            "type": "java",
+            "name": "Launch DE12A",
+            "request": "launch",
+            "mainClass": "DE12A",
+            "projectName": "CS5125_68b77586",
+            "args": [
+                "DE12test1"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Launch DE11",
             "request": "launch",
             "mainClass": "DE11",
